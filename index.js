@@ -11,11 +11,7 @@ app.listen(port, () => {
 });
 
 const pool = mysql.createPool({
-    host: 'localhost',
-    port: '3306',
-    user: 'root',
-    password: 'admin',
-    database: 'physical_therapy'
+    // insert db info here
 });
 
 
